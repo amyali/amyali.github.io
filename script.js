@@ -1,14 +1,8 @@
 $(document).ready(function() {
 	$('#fullpage').fullpage({
-		sectionsColor: ['#e7e7e7', '#F5826D', '#7BAABE', 'whitesmoke'],
+		sectionsColor: ['#EB5E65', '#000'],
 		scrollingSpeed: 1000
 
 
 	});
-  // $('.hover').mouseleave(function(){
-  //   $(this).text("IT Leadership Development Program");
-  //   $(this).css("color","#737373");
-  //   $(this).text("ITLDP").fadeIn();
-  // })
-
 });

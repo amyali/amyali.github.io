@@ -1,9 +1,7 @@
 body {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-family: "Avenir", sans-serif;
-  /*color: #58ACFA;*/
-  color: #4c4c4c;
-  background-color: #e7e7e7;
+  color: #fff;
   padding: 30px;
 }
 
@@ -13,8 +11,8 @@ body {
 
 /* link styling */
 a:link, a:visited {
-  color: #F36E55;
-  opacity: 0.8;
+  color: #FFDB11;
+  /*opacity: 0.8;*/
   text-decoration: none;
 }
 
@@ -50,23 +48,16 @@ nav .logo {
   content: "IT Leadership Development Program.";
 }
 
-/* temporary */
-
-.incomplete {
-  color: #F36E55;
-  opacity: 0.8;
-}
-
 /* TYPEWRITER INTRODUCTION */
 
 .typewriter h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid #F36E55; /* The typwriter cursor */
+  border-right: .15em solid #FFDB11; /* The typwriter cursor */
   margin-bottom: -10px;
   white-space: nowrap; /* Keeps the content on a single line */
   letter-spacing: .1em; /* Adjust as needed */
   animation: 
-    typing 8s steps(80, end),
+    typing 7s steps(80, end),
     blink-caret .75s step-end;
 }
 
@@ -79,5 +70,5 @@ nav .logo {
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  0% { border-color: #F36E55; }
+  0% { border-color: #FFDB11; }
 }
